@@ -1,0 +1,30 @@
+table,th,td,tr{
+    border-collapse: collapse;
+    border: 1px solid black;
+    height: 50px;
+    width: 900px;
+    text-align:center ;
+    }
+    th {
+        color: white;
+        background-color: firebrick;
+    }
+
+    .Servicios {
+        background-color: rgb(0, 195, 255);
+    }
+    .APW {
+        background-color: coral;
+    }
+    .Ingles {
+        background-color: yellow;
+    }
+    .SO {
+        background-color: rgb(180, 122, 235);
+    }
+    .Seguridad {
+        background-color: rgb(68, 255, 146);
+    }
+    .Empresa {
+        background-color: rgb(247, 51, 51);
+    }

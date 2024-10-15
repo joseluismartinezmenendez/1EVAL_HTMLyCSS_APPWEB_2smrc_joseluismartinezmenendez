@@ -4,15 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        table,tr,td,th{
-            border-collapse: collapse;
-            border: 1px solid black;
-            height: 50px;
-            width: 900px;
-            text-align:center ;
-            }
-    </style>
+    <link rel="stylesheet" href="estilos/estilo.css">
 </head>
 <body>
     <table>
@@ -26,43 +18,43 @@
             <th>Viernes</th>
         </tr>
         <tr>
-            <th>15:30-16:25</th>
-            <td rowspan="2" span="Servicios">Servicios en Red</td>
-            <td rowspan="2">Aplicaciones Web</td>
-            <td>Ingles Tecnico</td>
-            <td rowspan="2">SO en Red</td>
-            <td rowspan="2">Seguridad Informática</td>
+            <td>15:30-16:25</td>
+            <td rowspan="2" class="Servicios">Servicios en Red</td>
+            <td rowspan="2" class="APW">Aplicaciones Web</td>
+            <td class="Ingles">Ingles Tecnico</td>
+            <td rowspan="2" class="SO">SO en Red</td>
+            <td rowspan="2" class="Seguridad">Seguridad Informática</td>
         </tr>
         <tr>
-            <th>16:25-17:20</th>
-            <td rowspan="2">Aplicaciones Web</td>
+            <td>16:25-17:20</td>
+            <td rowspan="2" colspan="APW">Aplicaciones Web</td>
         </tr>
         <tr>
-            <th>17:20-18:15</th>
-            <td colspan="2">SO en Red</td>
-            <td colspan="2">Servicios en Red</td>
+            <td>17:20-18:15</td>
+            <td colspan="2" class="SO">SO en Red</td>
+            <td colspan="2" class="Servicios">Servicios en Red</td>
         </tr>
         <tr>
-            <th>18:15-18:30</th>
-            <th colspan="5">Recreo</th>
+            <td>18:15-18:30</td>
+            <td colspan="5">Recreo</td>
         </tr>
         <tr>
-            <th>18:30-19:25</th>
-            <td rowspan="2">Seguridad Informática</td>
-            <td>Ingles Tecnico</td>
-            <td>Aplicaciones Web</td>
-            <td colspan="2">Servicios en Red</td>
+            <td>18:30-19:25</td>
+            <td rowspan="2" class="Seguridad">Seguridad Informática</td>
+            <td class="Ingles">Ingles Tecnico</td>
+            <td class="APW">Aplicaciones Web</td>
+            <td colspan="2" class="Servicios">Servicios en Red</td>
         </tr>
         <tr>
-            <th>19:25-20:20</th>
-            <td rowspan="2">Servicios en Red</td>
-            <td rowspan="2">SO en Red</td>
-            <td rowspan="2">Empresa</td>
-            <td rowspan="2">SO en Red</td>
+            <td>19:25-20:20</td>
+            <td rowspan="2" class="Servicios">Servicios en Red</td>
+            <td rowspan="2" class="SO">SO en Red</td>
+            <td rowspan="2" class="Empresa">Empresa</td>
+            <td rowspan="2" class="SO">SO en Red</td>
         </tr>
         <tr>
-            <th>20:20-21:15</th>
-            <td>Empresa</td>
+            <td>20:20-21:15</td>
+            <td class="Empresa">Empresa</td>
         </tr>
     </table>
 </body>
