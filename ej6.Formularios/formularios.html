@@ -9,14 +9,15 @@
 <body>
     <h1>Formularios</h1>
     <form action="">
-       <label for="">Nombre <input type="text" required></label><br>
-       <label for="">Apellidos <input type="text"></label><br>
-       <label for="">Edad <input type="number" min="1" max="110"></label><br>
-       <label for="">Telefono <input type="tel"></label><br>
-       <label for="">Sitio Web <input type="url"></label><br>
-       <label for="">Correo <input type="email"></label><br>
-       <label for="">Contraseña <input type="password"></label><br>
-       <input type="checkbox" name="coche" id="coche">Coche Propio <br>
+       <label for="">Nombre <input type="text" required></label><br><br>
+       <label for="">Apellidos <input type="text"></label><br><br>
+       <label for="">Edad <input type="number" min="1" max="110"></label><br><br>
+       <label for="">Telefono <input type="tel"></label><br><br>
+       <label for="">Sitio Web <input type="url"></label><br><br>
+       <label for="">Correo <input type="email"></label><br><br>
+       <label for="">Contraseña <input type="password"></label><br><br>
+       <label for="">Color Favorito<input type="color" value="#1400ff"></label>
+       <input type="checkbox" name="coche" id="coche">Coche Propio <br><br>
        <label for="">
             <input type="radio" name="genero" id="" value="H">Hombre
             <input type="radio" name="genero" id="" value="M">Mujer
@@ -63,6 +64,22 @@
                 <option value="Arg">Argentina</option>
             </optgroup>
         </select>
+       </label>
+       <p>Valoracion del formulario</p>
+       <label for="">
+        <input type="range" min="1" max="10" step="0.1">
+       </label>
+       <p>Nivel de Ingles(A1,A2,B1,B2,C1,C2)</p>
+       <label for="">
+        <input type="range" name="nivelingles" list="rango-ingles" min="1" max="6">
+        <datalist id="rango-ingles">
+            <option value="1" label="A1"></option>
+            <option value="2" label="A2"></option>
+            <option value="3" label="B1"></option>
+            <option value="4" label="B2"></option>
+            <option value="5" label="C1"></option>
+            <option value="6" label="C2"></option>
+        </datalist>
        </label>
        <p>Mas Info</p>
        <label for="">
