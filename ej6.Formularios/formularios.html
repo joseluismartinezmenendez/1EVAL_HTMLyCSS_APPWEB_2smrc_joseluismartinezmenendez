@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="">
+       <label for="">Nombre <input type="text" required></label>
+       <label for="">Apellidos <input type="text"></label>
+       <label for="">Edad <input type="number" min="1" max="110"></label>
+       <label for="">Telefono <input type="tel"></label>
+       <label for="">Sitio Web <input type="url"></label>
+       <label for="">Correo <input type="email"></label>
+       <label for="">Contraseña <input type="password"></label>
+       <input type="checkbox" name="coche" id="coche">Coche Propio
+       <label for="">
+            <input type="radio" name="genero" id="" value="H">Hombre
+            <input type="radio" name="genero" id="" value="M">Mujer
+            <input type="radio" name="genero" id="" value="O">Otros
+       </label>
+       <label for="">Mes de Nacimiento
+        <select name="" id="" required>
+            <option value="0" disabled selected>Selecione un Mes</option>
+            <option value="1">Enero</option>
+            <option value="2">Febrero</option>
+            <option value="3">Marzo</option>
+            <option value="4">Abril</option>
+            <option value="5">Mayo</option>
+            <option value="6">Junio</option>
+            <option value="7">Julio</option>
+            <option value="8">Agosto</option>
+            <option value="9">Septiembre</option>
+            <option value="10">Octubre</option>
+            <option value="11">Noviembre</option>
+            <option value="12">Diciembre</option>
+        </select>
+       </label>
+       <label for="">
+        <p>Intereses</p>
+        <select name="" id="" multiple>
+            <option value="Deportes">Deportes</option>
+            <option value="Informatica">Informatica</option>
+            <option value="Games">Games</option>
+            <option value="Animales">Animales</option>
+        </select>
+       </label>
+       <label for="">
+        <p>Pais de nacimiento</p>
+        <select name="" id="">
+            <optgroup label="Europa">
+                <option value="esp">España</option>
+                <option value="fra">Francia</option>
+                <option value="ita">Italia</option>
+                <option value="Bel">Belgica</option>
+            </optgroup>
+            <optgroup label="America">
+                <option value="EEUU">Estados Unidos</option>
+                <option value="Cub">Cuba</option>
+                <option value="Arg">Argentina</option>
+            </optgroup>
+        </select>
+       </label>
+       <p>Mas Info</p>
+       <label for="">
+        <textarea name="text" id="" rows="10" cols="60"></textarea>
+       </label>
+       <input type="submit">
+       <input type="reset">
+    </form>
+</body>
+</html>
