@@ -9,22 +9,24 @@
 <body>
     <h1>Formularios</h1>
     <form action="">
-       <label for="">Nombre <input type="text" required></label><br><br>
-       <label for="">Apellidos <input type="text"></label><br><br>
-       <label for="">Edad <input type="number" min="1" max="110"></label><br><br>
-       <label for="">Telefono <input type="tel"></label><br><br>
-       <label for="">Sitio Web <input type="url"></label><br><br>
-       <label for="">Correo <input type="email"></label><br><br>
-       <label for="">Contraseña <input type="password"></label><br><br>
-       <label for="">Color Favorito<input type="color" value="#1400ff"></label>
+       <label for="nom">Nombre <input type="text"  required placeholder="Indica tu nombre" id="nom"></label><br><br>
+       <label for="ape">Apellidos <input type="text" placeholder="Indica tu apellido" id="ape"></label><br><br>
+       <label for="edad">Edad <input type="number" min="1" max="110" id="edad"></label><br><br>
+       <label for="phone">Telefono <input type="tel" id="phone"></label><br><br>
+       <label for="web">Sitio Web <input type="url" id="web"></label><br><br>
+       <label for="correo">Correo <input type="email" id="correo"></label><br><br>
+       <label for="contra">Contraseña <input type="password" id="contra"></label><br><br>
+       <label for="color">Color Favorito<input type="color" value="#1400ff" id="color"></label>
        <input type="checkbox" name="coche" id="coche">Coche Propio <br><br>
-       <label for="">
-            <input type="radio" name="genero" id="" value="H">Hombre
-            <input type="radio" name="genero" id="" value="M">Mujer
-            <input type="radio" name="genero" id="" value="O">Otros
-       </label>
-       <label for="">Mes de Nacimiento
-        <select name="" id="" required>
+       <input type="radio" name="hmo" value="h" id="h">
+       <label for="h">Hombre</label>
+       <input type="radio" name="hmo" value="m" id="m">
+       <label for="m">Mujer</label>
+       <input type="radio" name="hmo" value="o" id="o">
+       <label for="o">Otros</label>
+       <br><br>
+       <label for="mes">Mes de Nacimiento
+        <select name="mes" id="mes" required>
             <option value="0" disabled selected>Selecione un Mes</option>
             <option value="1">Enero</option>
             <option value="2">Febrero</option>
@@ -40,18 +42,18 @@
             <option value="12">Diciembre</option>
         </select>
        </label>
-       <label for="">
+       <label for="int">
         <p>Intereses</p>
-        <select name="" id="" multiple>
+        <select name="interes" id="int" multiple>
             <option value="Deportes">Deportes</option>
             <option value="Informatica">Informatica</option>
             <option value="Games">Games</option>
             <option value="Animales">Animales</option>
         </select>
        </label>
-       <label for="">
+       <label for="pais">
         <p>Pais de nacimiento</p>
-        <select name="" id="">
+        <select name="paises" id="pais">
             <optgroup label="Europa">
                 <option value="esp">España</option>
                 <option value="fra">Francia</option>
@@ -66,12 +68,12 @@
         </select>
        </label>
        <p>Valoracion del formulario</p>
-       <label for="">
-        <input type="range" min="1" max="10" step="0.1">
+       <label for="valfor">
+        <input type="range" min="1" max="10" step="0.1" id="valfor">
        </label>
        <p>Nivel de Ingles(A1,A2,B1,B2,C1,C2)</p>
-       <label for="">
-        <input type="range" name="nivelingles" list="rango-ingles" min="1" max="6">
+       <label for="ingles">
+        <input type="range" name="nivelingles" list="rango-ingles" min="1" max="6" id="ingle">
         <datalist id="rango-ingles">
             <option value="1" label="A1"></option>
             <option value="2" label="A2"></option>
@@ -82,8 +84,8 @@
         </datalist>
        </label>
        <p>Mas Info</p>
-       <label for="">
-        <textarea name="text" id="" rows="10" cols="60"></textarea>
+       <label for="info">
+        <textarea name="text" id="info" rows="10" cols="60" placeholder="Añada más información (Opcional)"></textarea>
        </label>
        <input type="submit">
        <input type="reset">

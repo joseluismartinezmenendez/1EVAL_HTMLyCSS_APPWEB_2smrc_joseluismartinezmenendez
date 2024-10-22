@@ -1,0 +1,20 @@
+/* Selector Universal */
+* {
+    background-color: yellow;
+}
+
+/* Selector de etiqueta */
+h1 {
+    background-color: green;
+}
+/* Selector de clase */
+
+p.fondoazul {
+    background-color: red;
+}
+
+/* Selector de id */
+
+p#rojo {
+    background-color: blueviolet;
+}
