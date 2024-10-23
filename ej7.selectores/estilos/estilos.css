@@ -18,3 +18,20 @@ p.fondoazul {
 p#rojo {
     background-color: blueviolet;
 }
+
+/* Selector descendientes*/
+
+footer {
+    margin: ;
+    padding: ;
+    border-color: cyan;
+    border-width: 20px;
+    border-style: double;
+}
+footer {
+    border-radius: 25px;
+}
+
+footer p {
+    color: red;
+}
