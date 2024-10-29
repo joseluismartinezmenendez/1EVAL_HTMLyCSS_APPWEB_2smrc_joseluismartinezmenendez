@@ -1,0 +1,31 @@
+span.personaje {
+    font-weight: bold;
+}
+span.lugar {
+    font-style: oblique;
+}
+span.coches {
+    color: rgb(255, 0, 0);
+}
+
+body {
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+h1{
+    text-align: right;
+}
+
+p.huelga{
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 10px;
+    text-shadow: black 6px 6px 6px;
+    text-transform: uppercase;
+}
+
+.logo{
+    vertical-align: middle;
+}
