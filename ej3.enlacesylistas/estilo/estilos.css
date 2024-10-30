@@ -1,0 +1,25 @@
+ol{
+    color: red;
+}
+
+ul{
+    list-style-image: url(smiley.png);
+}
+
+ul.Menu{
+    list-style: none;
+}
+li.submenu{
+    float: left;
+    background-color: red;
+    color: white;
+    width: 100px;
+    text-align: center;
+    margin-right: 6px;
+    padding: 10px;
+    border: 3px black dotted;
+}
+li.submenu:hover{
+    background-color: black;
+    color: white;
+}
