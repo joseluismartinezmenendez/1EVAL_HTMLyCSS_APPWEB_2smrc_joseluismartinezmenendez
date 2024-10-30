@@ -2,7 +2,7 @@ span.personaje {
     font-weight: bold;
 }
 span.lugar {
-    font-style: oblique;
+    font-style: italic;
 }
 span.coches {
     color: rgb(255, 0, 0);
@@ -29,4 +29,8 @@ p.huelga{
 
 .logo{
     vertical-align: middle;
+}
+p{
+    line-height: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
