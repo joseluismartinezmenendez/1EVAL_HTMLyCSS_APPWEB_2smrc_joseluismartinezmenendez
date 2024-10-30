@@ -10,6 +10,7 @@ span.coches {
 
 body {
     text-align: justify;
+    text-indent: 25px;
 }
 h2{
     text-align: center;
@@ -22,7 +23,7 @@ p.huelga{
     text-align: center;
     font-size: 200%;
     letter-spacing: 10px;
-    text-shadow: black 6px 6px 6px;
+    text-shadow: red 6px 6px 6px;
     text-transform: uppercase;
 }
 
